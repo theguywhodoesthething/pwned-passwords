@@ -1,0 +1,23 @@
+{
+    "name": "Pwned Passwords Extention",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Uses the Have I Been Pwned API to make sure you're using a secure password",
+    "homepage_url": "https://www.matthewgmur.com",
+    "background": {
+        "scripts": [
+            "jquery-3.3.1.min.js",
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Pwned Passwords Extention"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "activeTab",
+        "tabs"
+    ]
+}
